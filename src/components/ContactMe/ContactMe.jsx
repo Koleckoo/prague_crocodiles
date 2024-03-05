@@ -13,10 +13,10 @@ export default function ContactMe() {
 
     emailjs
       .sendForm(
-        "service_mnqz92d",
-        "template_rd7lo5f",
+        "service_q1c58bc",
+        "template_ech4xej",
         form.current,
-        "mDwUjzxSrLIhiQC7O"
+        "9sGDxgSe4Ee6oryGx"
       )
       .then(
         (result) => {
