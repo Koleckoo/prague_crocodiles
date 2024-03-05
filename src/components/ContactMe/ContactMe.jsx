@@ -13,7 +13,7 @@ export default function ContactMe() {
 
     emailjs
       .sendForm(
-        "service_ixib287",
+        "service_mnqz92d",
         "template_rd7lo5f",
         form.current,
         "mDwUjzxSrLIhiQC7O"
