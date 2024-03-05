@@ -1,9 +1,9 @@
 import React from "react";
 import { ImageList, ImageListItem, useMediaQuery } from "@mui/material";
 import "./LastTournament.css";
-import IMG1 from "../../assets/imgGalery1.JPG";
-import IMG2 from "../../assets/imgGalery2.JPG";
-import IMG3 from "../../assets/imgGalery3.JPG";
+import IMG1 from "../../assets/imgGalery1.png";
+import IMG2 from "../../assets/imgGalery2.png";
+import IMG3 from "../../assets/imgGalery3.png";
 
 export default function LastTournament() {
   const itemData = [
