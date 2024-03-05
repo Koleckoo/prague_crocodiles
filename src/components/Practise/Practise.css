@@ -1,0 +1,40 @@
+.practise_container {
+  display: flex;
+  gap: 2rem;
+}
+
+.practise_option {
+  width: 100%;
+  background: var(--color-bg-variant);
+  padding: 3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.practise_option iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+.practise_option:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+  .practise_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .practise_option {
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .practise_container {
+    gap: 1rem;
+  }
+}
