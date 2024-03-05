@@ -21,8 +21,6 @@ export default function LastTournament() {
     },
   ];
 
-  // Use the useMediaQuery hook to check for mobile screen sizes
-  // Adjust the query according to your needs. This example uses 600px as a breakpoint for mobile devices.
   const matches = useMediaQuery("(max-width:600px)");
 
   return (

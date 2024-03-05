@@ -2,6 +2,7 @@ import "./Navbar.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { MdOutlineSportsVolleyball } from "react-icons/md";
+import { BsTrophy } from "react-icons/bs";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -15,6 +16,13 @@ export default function Navbar() {
         className={active === "#" ? "active" : ""}
       >
         <AiOutlineHome />
+      </a>
+      <a
+        href="#lastTournament"
+        onClick={() => setActive("#lastTournament")}
+        className={active === "#lastTournament" ? "active" : ""}
+      >
+        <BsTrophy />
       </a>
       <a
         href="#practise"
